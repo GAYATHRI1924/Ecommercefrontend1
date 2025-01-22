@@ -1,0 +1,28 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "main.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "styles/**",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "scripts/**",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "images/**",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/html/(.*)",
+        "dest": "/html/$1"
+      }
+    ]
+  }
+  
