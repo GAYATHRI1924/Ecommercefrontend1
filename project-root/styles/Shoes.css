@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Moderustic", sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+background-size: cover;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffff;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+
+}
+
+.Firstsec{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+
+.Firstsec a:hover{
+    text-decoration: underline;
+    color:#4779C4;
+}
+.Firstsec a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+
+}
+
+.logo{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+.logo img{
+    width: 200px;
+    height: 80px;
+    
+}
+
+.Secondsec a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.Secondsec a:hover{
+    text-decoration: underline;
+    color:#4779C4;
+}
+
+.icons{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+.icons a{
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+.icons a:hover{
+    color: #3383c1;
+    
+}
+
+.shoebanner img{
+    width: 100%;
+    height: 728px;
+}
+
+.heading{
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    color: palevioletred;
+    
+}
+.shoescards{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+.shoe1{
+    box-shadow: rgb(118, 172, 212) 0px 7px 29px 0px;
+    width: 400px;
+    height: 410px;
+    border-radius: 0px 0px 20px 20px;
+    transition: transform 0.5s;
+}
+.shoe1 img{
+    height: 330px;
+    width: 400px;
+}
+.shoe1 p{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.shoe1:hover{
+    transform: scale(1.1);
+
+}
+.shoe1 img:hover{
+    content: url("https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/70932/354101/BRO3025_1000_6__35540.1722500328.jpg");
+}
+.shoe2{
+    box-shadow: rgb(118, 172, 212) 0px 7px 29px 0px;
+    width: 400px;
+    height: 410px;
+    border-radius: 0px 0px 20px 20px;
+    transition: transform 0.5s;
+}
+.shoe2 img{
+    height: 330px;
+    width: 400px;
+    
+}
+.shoe2 p{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.shoe2:hover{
+    transform: scale(1.1);
+
+}
+.shoe2 img:hover{
+    content: url("https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/70944/354111/BRO3026_1000_2__83378.1722500328.jpg");
+}
+.shoe3{
+    
+    width: 400px;
+    height: 410px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: rgb(118, 172, 212) 0px 7px 29px 0px;
+    transition: transform 0.5s;
+}
+.shoe3 img{
+    height: 330px;
+    width: 400px;
+    
+}
+.shoe3 p{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.shoe3:hover{
+    transform: scale(1.1);
+
+}
+.shoe3 img:hover{
+    content: url("https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/71541/361554/NEW695575_1000_9__40175.1724926726.jpg");
+}
+
+.shoe4{
+    box-shadow: rgb(118, 172, 212) 0px 7px 29px 0px;
+    width: 400px;
+    height: 410px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+.shoe4 img{
+    height: 330px;
+    width: 400px;
+    
+}
+.shoe4 p{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+.shoe4:hover{
+    transform: scale(1.1);
+
+}
+.shoe4 img:hover{
+    content: url("https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/71080/355388/NIK23233_1000_6__27371.1723036712.jpg");
+}
+.shoe5{
+    box-shadow: rgb(118, 172, 212) 0px 7px 29px 0px;
+    width: 400px;
+    height: 410px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+.shoe5 img{
+    height: 330px;
+    width: 400px;
+    
+}
+.shoe5 p{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.shoe5:hover{
+    transform: scale(1.1);
+
+}
+.shoe5 img:hover{
+    content: url("https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/71338/357132/NEW695572_1000_2__47180.1724084351.jpg");
+}
+.shoe6{
+    box-shadow: rgb(118, 172, 212) 0px 7px 29px 0px;
+    width: 400px;
+    height: 410px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+.shoe6 img{
+    height: 330px;
+    width: 400px;
+    
+}
+.shoe6 p{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.shoe6:hover{
+    transform: scale(1.1);
+
+}
+.shoe6 img:hover{
+    content: url("https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/71474/358325/ASI15102_1000_2__31787.1724167129.jpg");
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: gray;
+}
+
+.footer h3{
+      text-align: center;
+      font-size: 30px;
+      padding-top: 20px;
+      color: #ffffff;
+}
+.footer p{
+      text-align: center;
+      font-size: 20px;
+      padding-top: 10px;
+      color: #ffffff;
+}
+
+.footer-icons{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px ;
+    
+}
+
+.footer-icons a{
+    color: white;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1206px) {
+    
+    .Firstsec{
+        display: flex;
+        margin-left:0px ;
+        flex-shrink: 4;
+    }
+    
+  }
+
+  @media only screen and (max-width: 1111px){
+    
+      .Secondsec{
+        display: flex;
+        flex-shrink: 3;
+      }
+      .icons{
+        display: flex;
+        flex-shrink: 3;
+      }
+      .icons{
+        flex-shrink: 4;
+        margin-left: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 991px){
+   
+      .Firstsec{
+        display: flex;
+        flex-direction: column;
+        margin-left:0px ;
+        flex-shrink: 4;
+    }
+      .Secondsec{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 3;
+      }
+      .icons{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 3;
+      }
+      
+  }

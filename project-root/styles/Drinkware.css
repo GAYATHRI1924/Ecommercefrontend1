@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Moderustic", sans-serif;
+    box-sizing: border-box;
+   
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffff;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.Firstsec{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+
+.Firstsec a:hover{
+    text-decoration: underline;
+    color:#4779C4;
+}
+.Firstsec a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+
+}
+
+.logo{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+.logo img{
+    width: 200px;
+    height: 80px;
+    
+}
+
+.Secondsec a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.Secondsec a:hover{
+    text-decoration: underline;
+    color:#4779C4;
+}
+
+.icons{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+.icons a{
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+.icons a:hover{
+    color: #3383c1;
+    
+}
+
+.backround img{
+    width: 100%;
+    height: 650px;
+}
+
+.backround{
+    padding-top: 80px;
+}
+
+
+.wrapper {
+	background-color: #ffffff;
+	height: 650px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	
+}
+
+.wrapper:before, .wrapper:after {
+	content: "";
+	position: absolute;
+	height: 130px;
+	width: 150px;
+	z-index: 2;
+}
+
+.wrapper:after {
+	right: 0;
+	top: 0;
+	transform: rotateZ(360deg);
+}
+
+.wrapper:before {
+	left: 0;
+	top: 0;
+}
+
+.wrapper .track {
+	display: flex;
+	width: calc(150px * 10);
+	animation: scroll 20s 0.5s ease-in infinite;
+}
+
+.wrapper .logo {
+	width: 1800px;
+}
+
+.wrapper .logo img {
+	height: 610px;
+    width: 1700px;
+}
+
+@keyframes  scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(calc(-780px * 5));
+	}
+}
+
+.heading{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    
+}
+
+.bottle1{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+    height: 570px;
+    width: 500px;
+    margin-top: 30px;
+    
+}
+.bottle1 img{
+    width: 500px;
+    
+} 
+.bottle1 p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+.bottle2{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+    height: 570px;
+    width: 500px;
+    margin-top: 30px;
+    
+}
+.bottle2 img{
+    width: 500px;
+    
+} 
+.bottle2 p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+.bottle3{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+    height: 570px;
+    width: 500px;
+    margin-top: 30px;
+    
+}
+.bottle3 img{
+    width: 500px;
+    
+} 
+.bottle3 p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+.bottle4{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+    height: 570px;
+    width: 500px;
+    margin-top: 30px;
+    
+}
+.bottle4 img{
+    width: 500px;
+    
+} 
+.bottle4 p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+.bottle5{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+    height: 570px;
+    width: 500px;
+    margin-top: 30px;
+    
+}
+.bottle5 img{
+    width: 500px;
+    
+} 
+.bottle5 p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+.bottle6{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+    height: 570px;
+    width: 500px;
+    margin-top: 30px;
+    
+}
+.bottle6 img{
+    width: 500px;
+    
+} 
+.bottle6 p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+
+.bottle1 img:hover{
+   content: url("https://kailanioutdoors.com/cdn/shop/files/KONA-side-agave_800x.jpg?v=1708129811");
+    
+} 
+.bottle2 img:hover{
+   content: url("https://kailanioutdoors.com/cdn/shop/files/HULA-side-dune_800x.jpg?v=1708130056");
+    
+} 
+.bottle3 img:hover{
+   content: url("https://kailanioutdoors.com/cdn/shop/files/KILO-green-1_800x.jpg?v=1692380338");
+    
+} 
+.bottle4 img:hover{
+   content: url("https://kailanioutdoors.com/cdn/shop/files/LANAI-both-green_800x.jpg?v=1724707689");
+    
+} 
+.bottle5 img:hover{
+   content: url("https://kailanioutdoors.com/cdn/shop/files/MAUNA-dune-4_800x.jpg?v=1695924875");
+    
+} 
+.bottle6 img:hover{
+   content: url("https://kailanioutdoors.com/cdn/shop/files/HAIKU-peach-4_800x.jpg?v=1695923720");
+    
+} 
+
+
+.mainbottle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+
+.footer{
+    margin-top: 50px;
+    background-color: gray;
+}
+
+.footer h3{
+      text-align: center;
+      font-size: 30px;
+      padding-top: 20px;
+      color: #ffffff;
+}
+.footer p{
+      text-align: center;
+      font-size: 20px;
+      padding-top: 10px;
+      color: #ffffff;
+}
+
+.footer-icons{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px ;
+    
+}
+
+.footer-icons a{
+    color: white;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1206px) {
+    
+    .Firstsec{
+        display: flex;
+        margin-left:0px ;
+        flex-shrink: 4;
+    }
+    
+  }
+
+  @media only screen and (max-width: 1111px){
+    
+      .Secondsec{
+        display: flex;
+        flex-shrink: 3;
+      }
+      .icons{
+        display: flex;
+        flex-shrink: 3;
+      }
+      .icons{
+        flex-shrink: 4;
+        margin-left: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 991px){
+   
+      .Firstsec{
+        display: flex;
+        flex-direction: column;
+        margin-left:0px ;
+        flex-shrink: 4;
+    }
+      .Secondsec{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 3;
+      }
+      .icons{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 3;
+      }
+      
+  }

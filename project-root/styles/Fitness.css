@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Moderustic", sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+background-size: cover;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffff;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+
+}
+
+.Firstsec{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+
+.Firstsec a:hover{
+    text-decoration: underline;
+    color:#4779C4;
+}
+.Firstsec a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+
+}
+
+.logo{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+.logo img{
+    width: 200px;
+    height: 80px;
+    
+}
+
+.Secondsec a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.Secondsec a:hover{
+    text-decoration: underline;
+    color:#4779C4;
+}
+
+.icons{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+.icons a{
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+.icons a:hover{
+    color: #3383c1;
+    
+}
+
+.gymwear{
+    padding-top: 80px;
+    
+}
+.gymwear img{
+    height: 640px;
+    width: 100%;
+}
+
+.firstcloth{
+    width: 300px;
+    height: 410px;
+    box-shadow:
+    1px 2px 2px hsl(220deg 60% 50% / 0.2),
+    2px 4px 4px hsl(220deg 60% 50% / 0.2),
+    4px 8px 8px hsl(220deg 60% 50% / 0.2),
+    8px 16px 16px hsl(220deg 60% 50% / 0.2),
+    16px 32px 32px hsl(220deg 60% 50% / 0.2);
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+
+.firstcloth:hover{
+    transform: scale(1.1);
+}
+.firstcloth img{
+     width: 300px;
+     height: 300px;
+     padding:5px 5px;
+     border-radius: 10px;
+}
+
+.firstcloth p{
+    font-size: 15px;
+    padding: 10px;
+}
+.firstcloth h5{
+    padding-left: 10px;
+}
+.firstcloth a{
+    padding:10px;
+}
+
+.shoppingcloths{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+
+.footer{
+    margin-top: 50px;
+    background-color: gray;
+}
+
+.footer h3{
+      text-align: center;
+      font-size: 30px;
+      padding-top: 20px;
+      color: #ffffff;
+}
+.footer p{
+      text-align: center;
+      font-size: 20px;
+      padding-top: 10px;
+      color: #ffffff;
+}
+
+.footer-icons{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px ;
+    
+}
+
+.footer-icons a{
+    color: white;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1206px) {
+    
+    .Firstsec{
+        display: flex;
+        margin-left:0px ;
+        flex-shrink: 4;
+    }
+    
+  }
+
+  @media only screen and (max-width: 1111px){
+    
+      .Secondsec{
+        display: flex;
+        flex-shrink: 3;
+      }
+      .icons{
+        display: flex;
+        flex-shrink: 3;
+      }
+      .icons{
+        flex-shrink: 4;
+        margin-left: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 991px){
+   
+      .Firstsec{
+        display: flex;
+        flex-direction: column;
+        margin-left:0px ;
+        flex-shrink: 4;
+    }
+      .Secondsec{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 3;
+      }
+      .icons{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 3;
+      }
+      
+  }
+  @media only screen and (max-width: 991px){
+    .gymwear{
+        padding-top: 190px;
+        
+    }
+  }
+
+  

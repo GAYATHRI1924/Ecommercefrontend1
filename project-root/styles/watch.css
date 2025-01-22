@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Moderustic", sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+background-size: cover;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffff;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+
+}
+
+.Firstsec{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+
+.Firstsec a:hover{
+    text-decoration: underline;
+    color:#4779C4;
+}
+.Firstsec a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+
+}
+
+.logo{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+.logo img{
+    width: 200px;
+    height: 80px;
+    
+}
+
+.Secondsec a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.Secondsec a:hover{
+    text-decoration: underline;
+    color:#4779C4;
+}
+
+.icons{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+.icons a{
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+.icons a:hover{
+    color: #3383c1;
+    
+}
+
+.backgroundvideo{
+    height: 580px;
+    width: 100%;
+    padding-top: 80px;
+    
+    
+}
+.backgroundvideo video{
+   object-fit: cover;
+   height: 650px;
+   width: 100%;
+}
+
+.heading{
+    margin-top: 180px;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: #063171;
+    
+
+}
+.watch1 {
+    height: 450px;
+    width: 280px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+}
+.watch1 img{
+    width: 260px;
+    height: 300px;
+    margin: 10px;
+}
+
+.watch1 p{  
+ font-size: 15px;
+ margin-left: 10px;
+}
+.watch1 h6{  
+ font-size: 15px;
+ margin-left: 10px;
+ margin-top: 4PX;
+}
+.watchname{
+    font-size: 15px;
+    margin: 10px;
+}
+
+.watch2 {
+    height: 450px;
+    width: 280px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+}
+.watch2 img{
+    width: 260px;
+    height: 300px;
+    margin: 10px;
+}
+
+.watch2 p{  
+ font-size: 15px;
+ margin-left: 10px;
+}
+.watch2 h6{  
+ font-size: 15px;
+ margin-left: 10px;
+ margin-top: 4PX;
+}
+.watch3 {
+    height: 450px;
+    width: 280px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+}
+.watch3 img{
+    width: 260px;
+    height: 300px;
+    margin: 10px;
+}
+
+.watch3 p{  
+ font-size: 15px;
+ margin-left: 10px;
+}
+.watch3 h6{  
+ font-size: 15px;
+ margin-left: 10px;
+ margin-top: 4PX;
+}
+.watch4 {
+    height: 450px;
+    width: 280px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+}
+.watch4 img{
+    width: 260px;
+    height: 300px;
+    margin: 10px;
+}
+
+.watch4 p{  
+ font-size: 15px;
+ margin-left: 10px;
+}
+.watch4 h6{  
+ font-size: 15px;
+ margin-left: 10px;
+ margin-top: 4PX;
+}
+.watch5 {
+    height: 450px;
+    width: 280px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+}
+.watch5 img{
+    width: 260px;
+    height: 300px;
+    margin: 10px;
+}
+
+.watch5 p{  
+ font-size: 15px;
+ margin-left: 10px;
+}
+.watch5 h6{  
+ font-size: 15px;
+ margin-left: 10px;
+ margin-top: 4PX;
+}
+
+
+.watchsale{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.footer{
+    margin-top: 50px;
+    background-color: gray;
+}
+
+.footer h3{
+      text-align: center;
+      font-size: 30px;
+      padding-top: 20px;
+      color: #ffffff;
+}
+.footer p{
+      text-align: center;
+      font-size: 20px;
+      padding-top: 10px;
+      color: #ffffff;
+}
+
+.footer-icons{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px ;
+    
+}
+
+.footer-icons a{
+    color: white;
+    padding: 10px;
+}
+@media only screen and (max-width: 1206px) {
+    
+    .Firstsec{
+        display: flex;
+        margin-left:0px ;
+        flex-shrink: 4;
+    }
+    
+  }
+
+  @media only screen and (max-width: 1111px){
+    
+      .Secondsec{
+        display: flex;
+        flex-shrink: 3;
+      }
+      .icons{
+        display: flex;
+        flex-shrink: 3;
+      }
+      .icons{
+        flex-shrink: 4;
+        margin-left: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 991px){
+   
+      .Firstsec{
+        display: flex;
+        flex-direction: column;
+        margin-left:0px ;
+        flex-shrink: 4;
+    }
+      .Secondsec{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 3;
+      }
+      .icons{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 3;
+      }
+      
+  }
